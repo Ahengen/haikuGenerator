@@ -1,0 +1,20 @@
+h1{
+    font-size: x-large;
+}
+h2{
+    font-size: larger;
+}
+label{
+    text-align: center;
+}
+body{
+    font-family: 'Goblin One', cursive;
+    background-color: darkmagenta;
+    text-align: center;
+    border: 5px solid #255;
+    background-size: 500px 200px;
+    background-position: bottom;
+    padding-top: 6em;
+    background-repeat: no-repeat;
+
+}

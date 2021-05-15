@@ -2,18 +2,27 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
+
+    <link rel="stylesheet" href="style.css">
     <title>Haiku Generator</title>
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Goblin+One&display=swap" rel="stylesheet">
 </head>
 <body>
 <form>
-    <h1>Directions: Words should be entered with dashes between their syllables.<br>
-        For Example: "com-pu-ter" or "pink" or "smil-ing"
-    </h1>
-    <label for="addWord">Enter Words into the Haiku Dictionary Here</label>
+    <h1>Directions: Words should be entered with dashes between their syllables.</h1><br>
+    <h2>For Example: "com-pu-ter" or "pink" or "smil-ing"</h2>
+    <label for="addWord">Enter Words into the Haiku Dictionary Here:</label><br>
     <input type="text" id="addWord">
     <br>
-    <button id = "clicktoEnter">Click Here to Enter Word</button><br>
-    <button id = "clickGenerate">Click to Generate and Display Haiku</button>
+    <button id = "clicktoAdd">Add Word</button><br>
+    <button id = "clickGenerate">Generate Haiku</button><br>
+    <span id="line1"></span><br>
+    <span id="line2"></span><br>
+    <span id="line3"></span>
 </form>
+
+<script src="https://code.jquery.com/jquery-3.1.0.js"></script>
+<script src="code.js"></script>
 </body>
 </html>
